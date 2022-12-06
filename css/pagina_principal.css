@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #00364d;
+} 
+
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(236.85deg, #9be5d5 27.26%, #b2e1f7 96.03%);
+    border-radius: 50px;
+}
+
+header{
+    height: 55px;
+    padding: 10px 20px 5px 20px;
+    margin-bottom: auto;
+    background-color: rgb(1, 54, 63);
+}
+
+#img1{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+#container1{
+    display: flex;
+}
+
+#container2{
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.liHead{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: rgb(161, 213, 223);
+    margin-right: 50px;
+    transition: 450ms;
+}
+.liHead:hover{
+    color: rgb(21, 165, 146);
+}
+
+#linha{
+    display: none;
+} 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(161, 213, 223);
+    box-shadow: 0px 2px 10px rgb(3, 46, 63);
+}
+
+#linha ul{
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    background-color: rgb(161, 213, 223);
+    margin-top: 0;
+    align-items: center;
+}
+
+.liNav{
+    font-size: 20px;
+    color: rgb(7, 77, 77);
+    margin-right: 50px;
+}
+
+.liNav:hover{
+    color: rgb(0, 66, 121);
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(7, 77, 77);
+}
+a:hover{
+    color: white;
+    transition: 450ms;
+}
+
+.login button{
+    border: none;
+    background-color: rgb(161, 213, 223);
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.login button:hover{
+    border: none;
+    background-color: rgb(79, 138, 123);
+    border-radius: 50px;
+    transition: 450ms;
+}
+
+#barra button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    margin-top: 10px;
+}
+
+#h11,#h12{
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#h11{
+    color: rgb(133, 214, 228);
+    margin-right: auto;
+}
+
+#h12{
+    color: rgb(130, 223, 216);
+    margin-left: auto;
+}
+
+.a1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: contents;
+}
+
+#main{
+    margin-left: 7%;
+    margin-right: 30px;
+    padding-left: 20px;
+}
+#h1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#p{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.titulo{
+    font-family: Comic Sans ms;
+}
+
+.container-livros{
+    width: 540px;
+    padding: 5px auto;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.img-livros{
+    max-height: 250px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.u{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.avalie1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+}
+li{
+    margin-bottom: 5px;
+}
+
+.stars{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.d1,.comprar{
+    display: inline-block;
+}
+.comprar{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #05866a;
+}
+
+.sinopse{
+    color: #a30052;
+}
+.sinopse:hover{
+    text-decoration: underline;
+}
+.resenha{
+    color: #8a0050;
+}
+.resenha:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(1, 54, 63);
+    color: rgb(101, 164, 175);
+    padding: 7px;
+    position: relative;
+    bottom: 0;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

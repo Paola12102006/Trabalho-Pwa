@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/conta.css">
+	<link rel="icon" type="image/x-icon" href="../Img/conta.png">
+    <script src="../JS/conta.js"></script>
+    <title>Criar conta | ListBooks</title>
+</head>
+<body>
+
+    <main>
+        <form action="submit">
+
+            <div id="d1">
+                <img src="../Img/conta.png">
+            </div>
+    
+            <label for="nome">Nome</label>
+                <input type="text" name="nome" id="" size="38" placeholder="Nome" required />
+            
+            <label for="email">Email</label>
+                <input type="email" name="email" id="" size="38" placeholder="Email" required />
+            
+            <label for="user">Usuário</label>
+                <input type="text" name="user" id="" size="38" placeholder="Usuário" required />
+           
+            <label for="senha">Senha</label>
+                <input type="password" name="senha" id="" size="38" placeholder="Senha" required />
+    
+            <label for="senha2">Confirmar senha</label>
+                <input type="password" name="senha2" id="" size="38" placeholder="Confirmar senha" required />
+ 
+                <fieldset>
+                    
+                 <legend>Quais são seus gêneros de livro preferidos?</legend>
+                    <input type="checkbox" name="gender" id="g1">Fantasia
+                    <input type="checkbox" name="gender" id="g2">Terror
+                    <input type="checkbox" name="gender" id="g3">Romance
+                    <input type="checkbox" name="gender" id="g4">Drama
+                    <input type="checkbox" name="gender" id="g5">Ficção
+                    <input type="checkbox" name="gender" id="g6">Comédia
+                    <input type="checkbox" name="gender" id="g7">Outro...
+                </fieldset>
+            
+            <button onclick="Criar()">Criar conta</button>
+        </form>
+    </main>
+</body>
+</html>

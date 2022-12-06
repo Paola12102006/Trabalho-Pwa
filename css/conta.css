@@ -1,0 +1,82 @@
+body{
+    background-color: #8ac9c6;
+    margin-bottom: 50px;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #68b1a7;
+} 
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(236.85deg, #9be5d5 27.26%, #b2e1f7 96.03%);
+    border-radius: 50px;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+form{
+    background: linear-gradient(230.65deg, #68b1a7 27.49%, #8ac9c6 83.19%);
+    width: 410px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    border-radius: 30px;
+    background-color: #7ac2be;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.315);
+    color: aliceblue;
+}
+
+#d1{
+    text-align: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 13px;
+}
+
+label{
+    display: block;
+    margin-top: 7px;
+}
+
+input{
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 10px;
+    border-top: 3px solid rgb(128, 229, 195);
+    border-left: 3px solid rgb(118, 192, 167);
+    border-bottom: 3px solid rgb(118, 192, 167);
+    border-right: 3px solid rgb(128, 229, 195);
+}
+legend{
+    padding: 10px;
+    margin-bottom: 2px;
+}
+fieldset{
+    border-color: #8ac9c6;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+button{
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 50px;
+    border-top: 3px solid rgb(128, 229, 195);
+    border-left: 3px solid rgb(118, 192, 167);
+    border-bottom: 3px solid rgb(118, 192, 167);
+    border-right: 3px solid rgb(128, 229, 195);
+    width: 200px;
+    color: #026e62;
+}

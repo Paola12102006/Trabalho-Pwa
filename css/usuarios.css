@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: auto;
+    font-family: 'Roboto', sans-serif
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #00364d;
+} 
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(236.85deg, #9be5d5 27.26%, #b2e1f7 96.03%);
+    border-radius: 50px;
+}
+
+header{
+    padding-left: 20px;
+    background-color: rgb(1, 54, 63);
+    height: 74px;
+    justify-content: space-between;
+    display: flex;
+}
+
+#container1{
+    position: absolute;
+    left: 20px;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#h1-1,#h1-2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#h1-1{
+    color: rgb(133, 214, 228);
+    margin-right: auto;
+}
+
+#h1-2{
+    color: rgb(130, 223, 216);
+    margin-left: auto;
+}
+
+#container1,#container2{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#search-box{
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    border-radius: 50px;
+    padding: 9px 0px 9px 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d1ebf7;
+    height: 32px;
+}
+
+#search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 320px;
+    padding-left: 20px;
+}
+
+.search-btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #94d0e7;
+    cursor: pointer;
+}
+
+.loupe-white{
+    display: block;
+}
+
+::-webkit-input-placeholder{
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    margin-top: auto;
+    background-color: rgb(161, 213, 223);
+    padding: 7px 0px 7px 400px;
+}
+
+.a1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: contents;
+}
+
+#p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#h1{
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.u{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    margin-bottom: 5px;
+}
+
+.titulo{
+    font-family: Comic Sans ms;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sinopse{
+    color: #a30052;
+}
+.sinopse:hover{
+    text-decoration: underline;
+}
+.resenha{
+    color: #8a0050;
+}
+.resenha:hover{
+    text-decoration: underline;
+}
+
+.comprar{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #05866a;
+}
+
+#d1,.comprar{
+    display: inline-block;
+}
+
+.avalie1{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+}
+
+.stars{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#registrar-resenha{
+    display: block;
+    color: #00326b;
+}
+#registrar-resenha:hover{
+    text-decoration: underline dashed;
+}
+
+#livro1{
+    width: 550px;
+    padding: 5px 0px 5px 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#livro2{
+    width: 690px;
+    padding: 5px 0px 5px 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#livro3{
+    width: 550px;
+    padding: 5px 0px 5px 50px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#l1{
+    max-height: 250px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#l2{
+    max-height: 260px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#l3{
+    max-height: 250px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/pagina_principal.css">
+	<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4277/4277077.png">
+    <script src="../JS/pagina_principal.js"></script>
+    <title>ListBooks</title>
+</head>
+<body>
+    <header>
+        <div id="container1">
+            <a href="https://www.flaticon.com/" target="_blank"><img src="../Img/open-book.png" height="50px" width="50px" id="img1"></a>
+            <h1><span id="h11">List</span><span id="h12">Books</span></h1>
+        </div>
+        <div id="container2">
+            <a href="pagina-romance.html" target="_blank" class="liHead">Romance</a>
+            <a href="pagina-fantasia.html" target="_blank" class="liHead">Fantasia</a>
+            <a href="pagina-terror.html" target="_blank" class="liHead">Terror</a>
+            <a href="pagina-infantil.html" target="_blank" class="liHead">Infanto-Juvenil</a>
+        </div>
+    </header>
+
+    <nav>
+        <div id="barra">
+            <button onclick="showNav()"><img src="../Img/linhas.png" id="barrinhas"></button>
+        </div>
+    </nav>
+
+    <div id="linha">
+        <ul>
+            <li><a href="../pages/clube.html" class="liNav">Início</a></li>
+            <li><a href="../pages/pagina-sinopse.html" class="liNav">Sinopses</a></li>
+            <li><a href="../pages/pagina_principal.html" class="liNav">Destaques do Mês</a></li>
+            <li><a href="../pages/sobre.html" target="_blank" class="liNav">Sobre</a></li>
+            <li>
+                <div class="login">
+                    <button><a href="login.html">Login</a></button>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <main>
+        <p id="p">Neste site você irá encontrar livros dos diversos gêneros literários existentes. Além disso, você também encontrará um resumo de seu
+            enredo, algumas informações sobre a obra e resenhas feitas pelas desenvolvedoras desse site e pelos próprios usuários.
+        </p>
+        <h1 id="h1">Destaques</h1>
+        <div id="main">
+            <div class="container-livros">
+                <img src="https://mundohype.com.br/wp-content/uploads/2021/02/clube-dos-livros-987-1068x1547.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">Clube do Livro dos Homens</span></strong><br>(Clube do Livro dos Homens-Livro 1)</li>
+                    <li><strong>Autor:</strong> Lyssa Kay Adams</li>
+                    <li><strong>Ano de lançamento:</strong> 2020</li>
+                    <li><strong>Gênero:</strong> Comédia Romântica</li>
+                    <li><strong>Nº de páginas:</strong> 320</li>
+                    <li><strong>Editora:</strong> Arqueiro <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#clube-livro" target="_blank" class="sinopse">Sinopse</a></li> 
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Clube-do-Livro-dos-Homens/dp/6555650656" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star1()" id="star1" class="stars">
+                        <img src="../Img/star1.png" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star2()" id="star2" class="stars">
+                        <img src="../Img/star1.png" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star3()" id="star3" class="stars">
+                        <img src="../Img/star1.png" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star4()" id="star4" class="stars">
+                        <img src="../Img/star1.png" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star5()" id="star5" class="stars">
+                        <img src="../Img/star1.png" width="20px" height="20px">
+                    </button>
+                </div>
+                <script src="../JS/avaliacao.js"></script>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://3.bp.blogspot.com/-Rl1B9MEzbbg/Wsz6OIXg2pI/AAAAAAAACc8/MjCiIRjm6wYQEzLzo0vT98RDi2ACI69EACLcBGAs/s1600/orgulho.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">Orgulho e Preconceito</span></strong></li>
+                    <li><strong>Autora:</strong> Jane Austen</li>
+                    <li><strong>Lançamento:</strong> 1813 <img src="../Img/reino-unido.png" width="20px" height="20px"> 1940  <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Romance, Drama</li>
+                    <li><strong>Nº de páginas:</strong> 278</li>
+                    <li><strong>Editora:</strong> T. Egerton, Whitehall <img src="../Img/reino-unido.png" width="20px" height="20px"><br>Livraria José Olympio Editora <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#orgulho-preconceito" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Orgulho-Preconceito-Jane-Austen/dp/8544001823" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star12()" id="star12" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star22()" id="star22" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star32()" id="star32" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star42()" id="star42" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star52()" id="star52" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://www.record.com.br/wp-content/uploads/2019/07/6123-600x889.jpeg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">Corte de Espinhos e Rosas</span> - Vol.1</strong></li>
+                    <li><strong>Autora:</strong> Sarah J. Maas</li>
+                    <li><strong>Ano de lançamento:</strong> 2015</li>
+                    <li><strong>Gênero:</strong> Fantasia, Young Adult</li>
+                    <li><strong>Nº de páginas:</strong> 434</li>
+                    <li><strong>Editora:</strong> Galera Record <img src="../Img/brasil.png" width="20px" height="20px"><br>Bloomsbury <img src="../Img/estados-unidos.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#acotar1" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Corte-espinhos-rosas-Vol-1/dp/8501105872" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star13()" id="star13" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star23()" id="star23" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star33()" id="star33" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star43()" id="star43" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star53()" id="star53" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://image.isu.pub/190731231607-0a62e8949bc9ffd03b9522aec4054dc7/jpg/page_1.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">É Assim que Acaba</span> - Vol.1</strong></li>
+                    <li><strong>Autora:</strong> Colleen Hoover</li>
+                    <li><strong>Ano de lançamento:</strong> 2018<img src="../Img/brasil.png" width="20px" height="20px"> 2016 <img src="../Img/estados-unidos.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Romance</li>
+                    <li><strong>Nº de páginas:</strong> 368</li>
+                    <li><strong>Editora:</strong> Galera Record <img src="../Img/brasil.png" width="20px" height="20px"><br>Simon & Schuster <img src="../Img/estados-unidos.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#assim-acaba" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Assim-que-Acaba-Colleen-Hoover/dp/8501112518" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star14()" id="star14" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star24()" id="star24" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star34()" id="star34" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star44()" id="star44" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star54()" id="star54" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://a-static.mlcdn.com.br/1500x1500/livro-it-a-coisa/magazineluiza/210947500/15236b2101e641b2bfa512f9d95de4e1.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">It: A Coisa</span></strong></li>
+                    <li><strong>Autor:</strong> Stephen King</li>
+                    <li><strong>Ano de lançamento:</strong> 1986 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 2001 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Terror</li>
+                    <li><strong>Nº de páginas:</strong> 1104</li>
+                    <li><strong>Editora:</strong> Viking Press <img src="../Img/estados-unidos.png" width="20px" height="20px"><br>Editora Objetiva <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#it" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/coisa-Stephen-King/dp/8560280944" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star15()" id="star15" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star25()" id="star25" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star35()" id="star35" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star45()" id="star45" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star55()" id="star55" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/51gN-VWIpIL._SY344_BO1,204,203,200_QL70_ML2_.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">A Divina Comédia: Inferno</span></strong><br>(La Divina Commedia - Vol. 1)</li>
+                    <li><strong>Autor:</strong> Dante Alighieri</li>
+                    <li><strong>Ano de lançamento:</strong> 1304-1321 <img src="../Img/italia.png" width="20px" height="20px"> 2020 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Poema Épico</li>
+                    <li><strong>Nº de páginas:</strong> 240 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Principis</li>
+                    <li><a href="pagina-sinopse.html#divinaC-Inferno" target="_blank" class="sinopse">Sinopse</a> || <a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Divina-Com%C3%A9dia-Inferno-Dante-Alighieri/dp/6550970326" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star16()" id="star16" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star26()" id="star26" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star36()" id="star36" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star46()" id="star46" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star56()" id="star56" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://1.bp.blogspot.com/-Uwdd_P3lmbM/UdwhRRmr2zI/AAAAAAAAALw/6oVuKQPiOyg/s640/arte-pop-dom-casmurro.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">Dom Casmurro</span></strong></li>
+                    <li><strong>Autor:</strong> Machado de Assis</li>
+                    <li><strong>Ano de lançamento:</strong> 1899 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Realismo psicológico, Romance impressionista</li>
+                    <li><strong>Nº de páginas:</strong> 80</li>
+                    <li><strong>Editora:</strong> Livraria Garnier <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#dom-casmurro" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Dom-Casmurro-Joaquim-Machado-Assis/dp/1726401294" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star17()" id="star17" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star27()" id="star27" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star37()" id="star37" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star47()" id="star47" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star57()" id="star57" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://1.bp.blogspot.com/-QHgfskoHN_Q/T8WNYTHh0WI/AAAAAAAACNI/_mEyAS4pvsM/s640/Percy+Jackson+e+os+Olimpianos+-+O+Ladr%C3%A3o+de+Raios+capa+original.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo"> O Ladrão de Raios</span></strong></li>
+                    <li><strong>Autor:</strong> Rick Riordan</li>
+                    <li><strong>Ano de lançamento:</strong> 2005 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 2008 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Fantasia, Aventura,<br> Mitologia Grega</li>
+                    <li><strong>Nº de páginas:</strong> 384 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 400 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Miramax Books <img src="../Img/estados-unidos.png" width="20px" height="20px"><br>Editora Intrínseca <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#percyJ-1" target="_blank" class="sinopse">Sinopse</a> || <a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Ladr%C3%A3o-Raios-S%C3%A9rie-Jackson-Olimpianos/dp/8580575397" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star18()" id="star18" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star28()" id="star28" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star38()" id="star38" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star48()" id="star48" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star58()" id="star58" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://i.ebayimg.com/images/g/T7UAAOSwelZbdv8t/s-l300.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">A Sutil Arte de Ligar o Foda-se</span></strong></li>
+                    <li><strong>Autor:</strong> Mark Manson</li>
+                    <li><strong>Ano de lançamento:</strong> 2016 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 2017 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Autoajuda</li>
+                    <li><strong>Nº de páginas:</strong> 224</li>
+                    <li><strong>Editora:</strong> Harper <img src="../Img/estados-unidos.png" width="20px" height="20px"><br>Intrínseca <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#arteFoda" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Sutil-Arte-Ligar-Se/dp/855100249X" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star19()" id="star19" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star29()" id="star29" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star39()" id="star39" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star49()" id="star49" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star59()" id="star59" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://2.bp.blogspot.com/-bO3F_QeP4CA/WXzFfHUpVCI/AAAAAAAAxyU/kdB7EjxeVY0EpSB0SyvH_Cdg8W7lazakwCLcBGAs/s1600/Mil%2BBeijos%2Bde%2BGaroto.jpeg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">Mil Beijos de Garoto</span></strong></li>
+                    <li><strong>Autora:</strong> Tillie Cole</li>
+                    <li><strong>Ano de lançamento:</strong> 2017 <img src="../Img/brasil.png" width="20px" height="20px"> 2022 <img src="../Img/estados-unidos.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Romance, Young adult</li>
+                    <li><strong>Nº de páginas:</strong> 400 <img src="../Img/brasil.png" width="20px" height="20px"> 352 <img src="../Img/estados-unidos.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Planeta <img src="../Img/brasil.png" width="20px" height="20px"><br> Penguin Books Ltd <img src="../Img/estados-unidos.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#mil-beijos" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Mil-Beijos-Garoto-Tillie-Cole/dp/8542209826" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star110()" id="star110" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star210()" id="star210" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star310()" id="star310" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star410()" id="star410" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star510()" id="star510" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://i.pinimg.com/originals/e9/18/d3/e918d325fba5b1f0411d567bb3a15702.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">Jurassic Park</span></strong></li>
+                    <li><strong>Autor:</strong> Michael Crichton</li>
+                    <li><strong>Ano de lançamento:</strong> 1990 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 2015 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Ficção científica hard,<br> Techno-thriller e Terror</li>
+                    <li><strong>Nº de páginas:</strong> 416 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 528 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Aleph <img src="../Img/estados-unidos.png" width="20px" height="20px"><br> Rocco e L&PM Pocket <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#jurassic-park" target="_blank" class="sinopse">Sinopse</a> || <a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Jurassic-Park-Michael-Crichton/dp/8576575345" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star111()" id="star19" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star211()" id="star29" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star311()" id="star39" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star411()" id="star49" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star511()" id="star59" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/_87730e75a6f93a23d5f47a726b1c86ced8ae0bb4.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo"> Memórias Póstumas de Brás Cubas</span></strong></li>
+                    <li><strong>Autor:</strong> Machado de Assis</li>
+                    <li><strong>Ano de lançamento:</strong> 1881 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Literatura experimental,<br> Sátira menipéia</li>
+                    <li><strong>Nº de páginas:</strong>  368 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Tipografia Nacional <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#memorias-brasCubas" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Mem%C3%B3rias-P%C3%B3stumas-Cubas-Machado-Assis/dp/8594318618" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star112()" id="star19" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star212()" id="star29" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star312()" id="star39" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star412()" id="star49" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star512()" id="star59" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://a-static.mlcdn.com.br/1500x1500/livro-o-iluminado-colecao-biblioteca-stephen-king/magazineluiza/222843500/c4e5b5fd8294407da9565dcba4861265.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo"> O Iluminado</span></strong></li>
+                    <li><strong>Autor:</strong> Stephen King</li>
+                    <li><strong>Ano de lançamento:</strong> 1977 <img src="../Img/estados-unidos.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Horror, Ficção Gótica, Terror Psicológico</li>
+                    <li><strong>Nº de páginas:</strong> 497 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 313 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Doubleday <img src="../Img/estados-unidos.png" width="20px" height="20px"> Objetiva <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#Iluminado" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/iluminado-Stephen-King/dp/8581050484" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star113()" id="star113" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star213()" id="star213" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star313()" id="star313" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star413()" id="star413" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star513()" id="star513" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://www.amorporlivros.com.br/wp-content/uploads/livro-aniquilacao.png" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo"> Aniquilação - Comando Sul vol. 1</span></strong></li>
+                    <li><strong>Autor:</strong> Jeff VanderMeer</li>
+                    <li><strong>Ano de lançamento:</strong> 2014 <img src="../Img/estados-unidos.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Ficção científica, Horror,<br> Ficção estranha</li>
+                    <li><strong>Nº de páginas:</strong> 195 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 200 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Farrar Straus Giroux <img src="../Img/estados-unidos.png" width="20px" height="20px"> Intrínseca <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#aniquilação" target="_blank" class="sinopse">Sinopse</a> || <a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Aniquila%C3%A7%C3%A3o-Jeff-Vandermeer/dp/858057563X" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star114()" id="star114" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star214()" id="star214" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star314()" id="star314" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star414()" id="star414" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star514()" id="star514" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://livrariadavila.vteximg.com.br/arquivos/ids/313107-428-620/9788555340949.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo"> Vermelho, Branco e Sangue Azul</span></strong></li>
+                    <li><strong>Autora:</strong> Casey McQuiston</li>
+                    <li><strong>Ano de lançamento:</strong> 2019 <img src="../Img/estados-unidos.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Romance, Young Adult</li>
+                    <li><strong>Nº de páginas:</strong> 421 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 392 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> St. Martin's Griffin <img src="../Img/estados-unidos.png" width="20px" height="20px"><br> Editora Seguinte <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#V-B-A" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Vermelho-branco-sangue-Casey-McQuiston/dp/8555340942" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star115()" id="star115" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star215()" id="star215" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star315()" id="star315" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star415()" id="star415" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star515()" id="star515" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://1.bp.blogspot.com/-6_mz6pnAso0/Vi_IBN3-aII/AAAAAAAAHIE/qY5mFXLfBp8/s1600/capa%2Btrono%2Bde%2Bvidro.png" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo"> Trono de Vidro - Vol.1</span></strong></li>
+                    <li><strong>Autora:</strong> Sarah J. Maas</li>
+                    <li><strong>Ano de lançamento:</strong> 2012 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 2013 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Fantasia, Young Adult</li>
+                    <li><strong>Nº de páginas:</strong> 416 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 392 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Editora Bloomsbury <img src="../Img/estados-unidos.png" width="20px" height="20px"><br> Galera <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#tronoVidro1" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Trono-vidro-Vol-Sarah-Maas/dp/8501401382" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star116()" id="star116" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star216()" id="star216" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star316()" id="star316" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star416()" id="star416" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star516()" id="star516" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://3.bp.blogspot.com/-_NBLvySIJzY/WlHqYYcZF2I/AAAAAAAAmcU/vnMk1iZoH64rlv9MbDQF2l0lWffmlfBUACLcBGAs/s1600/Capa%2BHomem%2Bde%2BGiz.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo"> O Homem de Giz</span></strong></li>
+                    <li><strong>Autor:</strong> C. J. Tudor</li>
+                    <li><strong>Ano de lançamento:</strong> Janeiro de 2018 <img src="../Img/estados-unidos.png" width="20px" height="20px"> Março de 2018 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Suspense</li>
+                    <li><strong>Nº de páginas:</strong> 288 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 272 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Crown <img src="../Img/estados-unidos.png" width="20px" height="20px"> Intrínseca <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#homem-Giz" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html#homenGiz" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Homem-Giz-C-J-Tudor/dp/8551002937" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star117()" id="star117" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star217()" id="star217" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star317()" id="star317" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star417()" id="star417" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star517()" id="star517" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://m.media-amazon.com/images/I/41knBs4ouOL.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo"> A Hipótese do Amor</span></strong></li>
+                    <li><strong>Autora:</strong> Ali Hazelwood</li>
+                    <li><strong>Ano de lançamento:</strong> 2021 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 2022 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Romance</li>
+                    <li><strong>Nº de páginas:</strong> 400 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 336 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Berkley Books <img src="../Img/estados-unidos.png" width="20px" height="20px"><br>Editora Arqueiro <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#hip-Amor" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html#hipAmor" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/hip%C3%B3tese-amor-Sucesso-TikTok/dp/6555653302" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star118()" id="star118" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star218()" id="star218" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star318()" id="star318" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star418()" id="star418" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star518()" id="star518" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://m.media-amazon.com/images/I/A16dAJ1dHfL.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo"> Coração de Tinta</span></strong></li>
+                    <li><strong>Autora:</strong> Cornelia Funke</li>
+                    <li><strong>Ano de lançamento:</strong> 2003 <img src="../Img/alemanha.png" width="20px" height="20px"> 2006 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Fantasia, Infanto-juvenil</li>
+                    <li><strong>Nº de páginas:</strong> 576 <img src="../Img/alemanha.png" width="20px" height="20px"> 599 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Dressler <img src="../Img/alemanha.png" width="20px" height="20px"><br>Cia das Letras <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#coraTinta" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html#coracaoTinta" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Cora%C3%A7%C3%A3o-tinta-Cornelia-Funke/dp/8535907726" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star119()" id="star119" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star219()" id="star219" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star319()" id="star319" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star419()" id="star419" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star519()" id="star519" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://i5.walmartimages.com/asr/49d6dd59-e25f-407a-b995-83186be245b7.98cd8e53eacbb284fc72466a35e8649c.jpeg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">A Divina Comédia: Purgatório</span></strong><br>(La Divina Commedia - Vol. 1)</li>
+                    <li><strong>Autor:</strong> Dante Alighieri</li>
+                    <li><strong>Ano de lançamento:</strong> 1304-1321 <img src="../Img/italia.png" width="20px" height="20px"> 2020 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Poema Épico</li>
+                    <li><strong>Nº de páginas:</strong> 240 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Principis</li>
+                    <li><a href="pagina-sinopse.html" target="_blank" class="sinopse">Sinopse</a> || <a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Divina-Com%C3%A9dia-Purgat%C3%B3rio-Dante-Alighieri/dp/6550970334" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star120()" id="star120" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star220()" id="star220" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star320()" id="star320" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star420()" id="star420" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star520()" id="star520" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://is2-ssl.mzstatic.com/image/thumb/Publication124/v4/94/72/76/9472769c-4f1e-0bf2-06dd-bce070917cfc/source/300x300bb.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">Um Amor para Recordar</span></strong></li>
+                    <li><strong>Autor:</strong> Nicholas Sparks</li>
+                    <li><strong>Ano de lançamento:</strong> 2000 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 2019 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Romance, Drama</li>
+                    <li><strong>Nº de páginas:</strong> 256 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 144 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Warner Books (NY) <img src="../Img/estados-unidos.png" width="20px" height="20px"> Editora Arqueiro <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#amor-Recordar" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html#amorRecordar" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/amor-para-recordar-Nicholas-Sparks/dp/8580419816" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star121()" id="star121" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star221()" id="star221" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star321()" id="star321" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star421()" id="star421" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star521()" id="star521" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://imagens.elivrosgratis.com/capas/a-maldicao-do-tigre-colleen-houck.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">A Maldição do Tigre</span></strong><br>(A Maldição do Tigre - Vol.1)</li>
+                    <li><strong>Autora:</strong> Colleen Houck</li>
+                    <li><strong>Ano de lançamento:</strong> Janeiro 2011 <img src="../Img/estados-unidos.png" width="20px" height="20px"> Outubro 2011 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Romance, Fantasia, Aventura</li>
+                    <li><strong>Nº de páginas:</strong> 448 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 352 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Splinter <img src="../Img/estados-unidos.png" width="20px" height="20px"> Editora Arqueiro <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#maldição-Tigre1" target="_blank" class="sinopse">Sinopse</a> || <a href="pagina_resenha.html#mal-tigre1" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/maldi%C3%A7%C3%A3o-do-tigre-Colleen-Houck/dp/8580410266" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star122()" id="star122" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star222()" id="star222" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star322()" id="star322" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star422()" id="star422" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star522()" id="star522" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://www.estantediagonal.com.br/wp-content/uploads/2021/05/61yqbF4cjiL-285x412.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">O Menino Que Se Alimentava<br> de Pesadelos</span></strong><br>(It's Okay To Not Be Okay - Vol.1)</li>
+                    <li><strong>Autora:</strong> Jo Yong</li>
+                    <li><strong>Ano de lançamento:</strong> Março 2021 <img src="../Img/coreia-do-sul.png" width="20px" height="20px"><img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Literatura infantil, Terror</li>
+                    <li><strong>Nº de páginas:</strong> 24 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Intrínseca <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#menino-pesadelo" target="_blank" class="sinopse">Sinopse</a> || <a href="pagina_resenha.html#meninoPesadelo" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Menino-Que-Se-Alimentava-Pesadelos/dp/6555601957" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star123()" id="star123" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star223()" id="star223" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star323()" id="star323" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star423()" id="star423" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star523()" id="star523" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://3.bp.blogspot.com/-uFkqfcaRukI/WmOfZf8-IHI/AAAAAAAADR8/xoFwQwd3oHINqvPbFKOJhmjkdb4jfW3eQCLcBGAs/s1600/AMOR_E_GELATO_1497665394683238SK1497665394B.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">Amor & Gelato</span></strong></li>
+                    <li><strong>Autora:</strong> Jenna Evans Welch</li>
+                    <li><strong>Ano de lançamento:</strong> 2016 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 2017 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Romance, Young Adult</li>
+                    <li><strong>Nº de páginas:</strong> 400 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 320 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Simon & Schuster Books for Young Readers <img src="../Img/estados-unidos.png" width="20px" height="20px"> Intrínseca <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html#amor-Gelato" target="_blank" class="sinopse">Sinopse</a></li>
+                    <li><a href="pagina_resenha.html#amorGel" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/Amor-Gelato-Jenna-Evans-Welch/dp/8551002341" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star124()" id="star124" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star224()" id="star224" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star324()" id="star324" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star424()" id="star424" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star524()" id="star524" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="container-livros">
+                <img src="https://record.com.br/wp-content/uploads/2019/07/15457-768x1138.jpeg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">O Príncipe Cruel</span></strong> O Povo do Ar - Vol.1</li>
+                    <li><strong>Autora:</strong> Holly Black</li>
+                    <li><strong>Ano de lançamento:</strong> Janeiro 2018 <img src="../Img/estados-unidos.png" width="20px" height="20px"> Setembro 2018 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Fantasia</li>
+                    <li><strong>Nº de páginas:</strong> 384 <img src="../Img/estados-unidos.png" width="20px" height="20px"> 322 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Little, Brown Books for Young Readers <img src="../Img/estados-unidos.png" width="20px" height="20px"> Editora Galera <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html" target="_blank" class="sinopse">Sinopse</a> || <a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href="https://www.amazon.com.br/pr%C3%ADncipe-cruel-Vol-Povo-Ar/dp/850111555X" target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star125()" id="star125" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star225()" id="star225" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star325()" id="star325" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star425()" id="star425" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star525()" id="star525" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+
+            <div class="container-livros">
+                <img src="https://http2.mlstatic.com/livro-o-pequeno-principe-com-96-paginas-editora-magic-kids-D_NQ_NP_624682-MLB26613325844_012018-F.jpg" class="img-livros">
+                <ul type="none" class="u">
+                    <li><strong><span class="titulo">O Pequeno Príncipe</span></strong></li>
+                    <li><strong>Autor:</strong> Antoine de Saint-Exupéry</li>
+                    <li><strong>Ano de lançamento:</strong> 1943 <img src="../Img/franca.png" width="20px" height="20px"> 1956 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Gênero:</strong> Literatura Infanto-Juvenil, Novela</li>
+                    <li><strong>Nº de páginas:</strong> 96 <img src="../Img/franca.png" width="20px" height="20px"> 93 <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><strong>Editora:</strong> Éditions Gallimard <img src="../Img/franca.png" width="20px" height="20px"><br> Editora Agir <img src="../Img/brasil.png" width="20px" height="20px"></li>
+                    <li><a href="pagina-sinopse.html" target="_blank" class="sinopse">Sinopse</a> || <a href="pagina_resenha.html" target="_blank" class="resenha">Resenha</a></li>
+                </ul>
+                <a href=" " target="_blank" class="comprar">Comprar a obra</a>
+                <div class="d1">
+                    <p class="avalie1">&nbsp;&nbsp;&nbsp;Avalie: </p>
+                    <button onclick="Star126()" id="star126" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star226()" id="star226" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star326()" id="star326" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star426()" id="star426" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                    <button onclick="Star526()" id="star526" class="stars">
+                        <img src="../Img/star1.png" class="img2" width="20px" height="20px">
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    
+    <footer>
+        <p>Desenvolvedoras do site: Maria Clara Queiroz da Silva, Kayla da Silveira Lucas e Paola da Costa Damasceno.</p>
+    </footer>
+</body>
+</html>
